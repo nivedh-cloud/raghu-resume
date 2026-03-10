@@ -16,14 +16,14 @@ export const Navigation = () => {
   const handleDownloadResume = async () => {
     try {
       // Get the base path from the current location
-      const basePath = window.location.pathname.split('/jeevan-resume')[0] + '/jeevan-resume';
-      const fileUrl = basePath + '/Jeevan_Prabhath_Resume.pdf';
+      const basePath = window.location.pathname.split('/interactive-resume')[0] + '/interactive-resume';
+      const fileUrl = basePath + '/Senior_UIUX_AI_Product_Designer_Resume.pdf';
 
       // Try to use File System Access API for folder selection (modern browsers)
       if ('showSaveFilePicker' in window) {
         try {
           const handle = await (window as any).showSaveFilePicker({
-            suggestedName: 'Jeevan_Prabhath_Resume.pdf',
+            suggestedName: 'Senior_UIUX_AI_Product_Designer_Resume.pdf',
             types: [{ description: 'PDF Files', accept: { 'application/pdf': ['.pdf'] } }],
           });
 
@@ -45,7 +45,7 @@ export const Navigation = () => {
         // Fallback: simple download to browser's default downloads folder
         const link = document.createElement('a');
         link.href = fileUrl;
-        link.download = 'Jeevan_Prabhath_Resume.pdf';
+        link.download = 'Senior_UIUX_AI_Product_Designer_Resume.pdf';
         link.setAttribute('target', '_blank');
         document.body.appendChild(link);
         link.click();
@@ -71,7 +71,7 @@ export const Navigation = () => {
           transition={{ delay: 0.2 }}
           className="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600"
         >
-          JP
+          RK
         </motion.div>
 
         {/* Desktop Navigation */}

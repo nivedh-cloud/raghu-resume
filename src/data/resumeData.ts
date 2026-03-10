@@ -1,63 +1,66 @@
 export const resumeData = {
-  name: "P Jeevan Prabhath",
-  email: "prabhath.jeevan@gmail.com",
-  phone: "+91 9966429688",
-  headline: "Frontend Developer (React) with 15+ Years Experience",
-  summary: "Extensive experience in analysis, design and development of websites as a web developer with strong application analysis, design, development, debugging and problem-solving skills. Passionate about creating responsive, high-performance web applications with modern technologies.",
+  name: "Raghavendra K",
+  email: "rkakkunoori@gmail.com",
+  phone: "+91 9885455670",
+  location: "Hyderabad",
+  headline: "Senior UI/UX Designer | AI-Enabled Product Experiences",
+  summary: "Senior UI/UX Designer with extensive experience designing user-centered digital products and operational dashboards. Skilled at simplifying complex systems and data into intuitive and practical user experiences. With a strong background in UI architecture and product design, I have recently focused on designing experiences for AI-powered product features such as intelligent insights, conversational interfaces, and AI-assisted workflows. Strong product thinking with experience translating complex systems and AI capabilities into practical user experiences.",
   
   skills: {
-    frontend: ["React", "HTML5", "CSS3", "JavaScript", "TypeScript",  "jQuery", "Nodejs","Vite", "ExtJS"],
-    frameworks: ["Bootstrap", "Tailwind CSS", "Material UI", "Kendo UI"],
-    devops: ["Git", "Jira", "Argo", "Jenkins", "Agile"],
-    backend: ["Restful Web Services", "JSON", "AJAX"],
-    tools: ["Visual Studio", "Photoshop", "Adobe Suite", "Figma"],
-    other: ["Responsive Design", "Cross-browser Compatibility", "UI/UX Design"]
+    uxDesign: ["UX Design", "User Experience Design", "User Journey Mapping", "Wireframing", "Prototyping", "Usability Testing", "Interaction Design", "Design Thinking"],
+    uiDesign: ["UI Design", "Interface Design", "Responsive Design", "Design Systems", "Component-Based UI", "Visual Hierarchy", "Accessibility Principles"],
+    aiExperience: ["AI Product Experience", "AI-assisted product features", "Conversational interface design", "AI insight dashboards", "Human-AI interaction flows", "AI-assisted monitoring systems"],
+    uxResearch: ["User Interviews", "Persona Development", "User Behavior Analysis", "Usability Testing"],
+    designTools: ["Miro", "Notion", "Whiteboarding Tools", "Wireframing Tools"],
+    aiTools: ["ChatGPT", "Claude", "Gemini", "Microsoft Copilot", "Perplexity AI"],
+    aiDesignTools: ["AI UX Ideation", "AI-assisted Research", "Prompt Exploration"]
   },
 
   experience: [
     {
       id: 1,
-      company: "Orbcomm India Pvt Ltd",
-      position: "Technical Lead – UI",
-      duration: "March 2015 – Present",
-      location: "India",
-      description: "Leading a 35-member team in building the ORBCOMM Platform - an industrial IoT and M2M communication system",
+      company: "Freelance",
+      position: "AI Product Experience Designer",
+      duration: "Recent Experience",
+      location: "Hyderabad",
+      description: "Working with product teams to design user experiences for AI-enabled features and intelligent operational systems.",
       highlights: [
-        "Acted as Module Lead for 35-member team",
-        "Architected transition from legacy systems to modern ReactJS",
-        "Developed real-time asset tracking with Google Maps API",
-        "Optimized frontend for high-frequency IoT data streams",
-        "Created reusable component libraries using Kendo UI"
+        "Designed dashboards and operational interfaces for monitoring complex system data",
+        "Created interaction flows for AI-powered insights and automated alerts",
+        "Designed AI-assisted workflows that help users understand system behavior and take action faster",
+        "Improved clarity of complex data by integrating AI-generated summaries and insights",
+        "Designed interfaces where users can review and validate AI-generated recommendations"
       ],
-      technologies: ["ReactJS", "TypeScript", "Google Maps API", "Material UI", "Kendo", "Bootstrap", "LESS"]
+      technologies: ["AI UX Design", "Dashboard Design", "Interaction Design", "AI Workflow Design"]
     },
     {
       id: 2,
-      company: "Verizon Data Services India Pvt Ltd",
-      position: "Senior Software Engineer",
-      duration: "July 2012 – July 2015",
-      location: "India",
-      description: "Access Provisioning Control system development",
+      company: "Various Organizations",
+      position: "UI Architect",
+      duration: "Professional Experience",
+      location: "Hyderabad",
+      description: "Led UI architecture and interface design for complex digital platforms and operational systems.",
       highlights: [
-        "Developed UI for large-scale access control system",
-        "Worked with 35-member team",
-        "Implemented responsive web designs"
+        "Designed scalable UI frameworks for enterprise applications",
+        "Developed reusable UI components and design standards",
+        "Improved usability of complex data dashboards and monitoring systems",
+        "Collaborated closely with product and engineering teams to enhance product usability"
       ],
-      technologies: ["HTML5", "CSS3", "Bootstrap", "jQuery", "JavaScript", "ExtJS"]
+      technologies: ["UI Architecture", "Design Systems", "Component Design", "Enterprise Applications"]
     },
     {
       id: 3,
-      company: "Microsoft",
-      position: "UI Developer",
-      duration: "January 2012 – July 2012",
-      location: "USA",
-      description: "Windows 8 Weather and News App development",
+      company: "Various Organizations",
+      position: "Senior UI Developer",
+      duration: "Professional Experience",
+      location: "Hyderabad",
+      description: "Developed responsive and user-friendly interfaces for web-based applications.",
       highlights: [
-        "Developed UI for Windows 8 applications",
-        "Worked with 40-member team",
-        "Implemented modern UI patterns"
+        "Built high-quality responsive interfaces",
+        "Developed reusable UI components and interaction patterns",
+        "Improved user experience through better layout, navigation, and interaction design"
       ],
-      technologies: [".NET 2011", "jQuery", "HTML", "CSS", "JavaScript", "TFS"]
+      technologies: ["Web Development", "Responsive Design", "UI Components", "Interaction Patterns"]
     }
   ],
 
@@ -65,173 +68,87 @@ export const resumeData = {
     {
       id: 1,
       category: "Professional",
-      name: "The Orbcomm Platform",
-      company: "Orbcomm",
-      duration: "March 2015 – Present",
-      description: "Leading industrial IoT tracking platform providing real-time visibility for assets globally",
-      role: "Technical Lead – UI",
+      name: "AI Agentic IoT Monitoring Dashboard",
+      company: "Professional Project",
+      duration: "Recent Project",
+      description: "Designed a smart operational dashboard that uses AI to analyze device data and highlight insights for operations teams.",
+      role: "UI/UX Designer",
       highlights: [
-        "Real-time asset tracking for Reefers, Cargo, Heavy Equipment & Fleet",
-        "Live location updates using Google Maps API",
-        "High-performance dashboard handling thousands of IoT devices",
-        "Advanced UI components with Kendo UI"
+        "Designed dashboard layouts displaying device health, operational metrics, and AI-generated alerts",
+        "Created interaction flows for reviewing AI insights and anomaly detection results",
+        "Designed interfaces that allow users to validate and act on AI-generated recommendations",
+        "Simplified complex IoT telemetry data through clear visualizations and summaries"
       ],
-      technologies: ["ReactJS", "TypeScript", "Google Maps", "Material UI", "Kendo", "Bootstrap"],
-      url: "https://www.orbcomm.com/"
+      technologies: ["Dashboard Design", "AI Integration", "IoT Monitoring", "Data Visualization", "Interaction Design"],
+      impact: "Improved operational visibility and helped teams identify device issues faster."
     },
     {
       id: 2,
       category: "Professional",
-      name: "Windows 8 Weather and News App",
-      company: "Microsoft",
-      duration: "January 2012 – July 2012",
-      description: "Modern Windows 8 application for weather and news",
-      role: "UI Developer",
-      technologies: [".NET 2011", "jQuery", "HTML5", "CSS3"],
-      url: "https://www.microsoft.com/"
+      name: "AI Predictive Maintenance Experience (IoT)",
+      company: "Professional Project",
+      duration: "Recent Project",
+      description: "Designed a product experience that uses AI to identify potential device failures and assist maintenance teams.",
+      role: "UI/UX Designer",
+      highlights: [
+        "Designed AI-generated device health indicators and predictive alerts",
+        "Created user flows for reviewing AI maintenance recommendations",
+        "Designed dashboards showing device performance trends and system health",
+        "Improved usability of maintenance monitoring tools"
+      ],
+      technologies: ["IoT Design", "Predictive Analytics UI", "Dashboard Design", "Alert Systems", "User Flows"],
+      impact: "Enabled earlier identification of potential issues and improved maintenance planning."
     },
     {
       id: 3,
-      category: "Professional",
-      name: "Community Credit Union",
-      company: "Community Credit Union",
-      duration: "August 2011 – December 2011",
-      description: "Financial institution website with N2 CMS",
-      role: "UX and UI Developer",
-      technologies: [".NET", "N2CMS", "jQuery", "HTML", "CSS"],
-      url: "http://communitycreditunion.org/"
+      category: "Personal",
+      name: "Avinaya Astra",
+      company: "Professional Project",
+      duration: "Recent Project",
+      description: "Web design and development for Avinaya Astra platform",
+      role: "UI/UX Designer & Developer",
+      technologies: ["Web Design", "UI/UX Design", "Responsive Design", "Web Development"],
+      url: "https://www.avinyaastra.in/"
     },
     {
       id: 4,
-      category: "Professional",
-      name: "DIRECTV",
-      company: "DIRECTV",
-      duration: "October 2006 – April 2009",
-      description: "Leading digital TV provider website",
-      role: "UI Developer & Designer",
-      highlights: [
-        "Site maintenance and enhancements",
-        "Brochure and slider design",
-        "Image editing and optimization"
-      ],
-      technologies: ["Quark XPress", "Photoshop", "Flash", "HTML", "JavaScript"],
-      url: "https://www.directv.com/"
+      category: "Personal",
+      name: "Nyzo Ride",
+      company: "Professional Project",
+      duration: "Recent Project",
+      description: "Modern ride-sharing platform with intuitive user experience",
+      role: "UI/UX Designer & Developer",
+      technologies: ["UI/UX Design", "Responsive Design", "Web Development", "User Experience Design"],
+      url: "https://nyzoride.com/"
     },
     {
       id: 5,
       category: "Personal",
-      name: "World Timeline",
-      company: "Personal Project",
-      duration: "2024 – Present",
-      description: "Interactive historical timeline showcasing major civilizations and events across the globe from 4000 BC to modern era. Displays concurrent events across different regions, cultures, and civilizations with detailed information about political, cultural, and technological developments.",
-      role: "Full Stack Developer",
-      highlights: [
-        "Interactive timeline with multiple civilizations and regions",
-        "Chronological event tracking from 4000 BC to present",
-        "Geographic-based event categorization (Europe, Asia, Americas, Africa)",
-        "Real-time year navigation and filtering",
-        "Responsive design for all devices"
-      ],
-      technologies: ["React", "JavaScript", "HTML5", "CSS3", "Bootstrap", "Responsive Design"],
-      url: "https://nivedh-cloud.github.io/world-timeline"
-    },
-    {
-      id: 6,
-      category: "Personal",
-      name: "The Wisdom Mountain",
-      company: "Personal Project",
-      duration: "2024 – Present",
-      description: "Educational visual timeline project depicting biblical history from Adam through Jesus Christ. Features an interactive timeline of significant biblical events, patriarchs, prophets, and historical milestones spanning thousands of years with detailed cultural and historical context.",
-      role: "Full Stack Developer & UX Designer",
-      highlights: [
-        "Comprehensive biblical timeline with detailed narratives",
-        "Interactive navigation through historical periods",
-        "Visual hierarchy and information design for complex historical data",
-        "Educational content presentation",
-        "Mobile-responsive layout"
-      ],
-      technologies: ["React", "JavaScript", "HTML5", "CSS3", "Interactive UI", "Educational Design"],
-      url: "https://nivedh-cloud.github.io/The-Wisdom-Mountain/adam-to-jesus"
-    },
-    {
-      id: 7,
-      category: "Professional",
-      name: "XpertEMR",
-      company: "XpertEMR",
-      duration: "December 2007 – March 2009",
-      description: "Electronic Medical Records (EMR) system for healthcare providers",
-      role: "UI Developer",
-      highlights: [
-        "Designed and developed user interface for EMR system",
-        "Created image assets and UI elements",
-        "Developed UI pages using C#.NET and HTML",
-        "Worked with 15-member team"
-      ],
-      technologies: ["C#.NET 2005", "Flash", "Photoshop", "Dreamweaver", "HTML", "JavaScript"],
-      url: "http://xpertemr.com/"
-    },
-    {
-      id: 8,
-      category: "Professional",
-      name: "WAMU (Washington Mutual)",
-      company: "WAMU",
-      duration: "March 2008 – January 2009",
-      description: "Financial services website for Washington Mutual, Inc., a leading financial services company handling consumer and small to mid-sized business operations",
-      role: "UI Developer",
-      highlights: [
-        "Designed and developed initial mockups",
-        "Created user interface design and layout",
-        "Image creation and editing for web",
-        "Developed UI pages using C#.NET and HTML",
-        "Created engaging look and feel for customers"
-      ],
-      technologies: ["C#.NET 2005", "Xmpie", "Photoshop", "HTML", "JavaScript"],
-      url: "https://www.wamu.com/"
-    },
-    {
-      id: 9,
-      category: "Professional",
-      name: "RR DONNELLEY (LS2 CENTRUM)",
-      company: "RR Donnelley",
-      duration: "April 2007 – February 2009",
-      description: "Large publication, catalog and commercial printer website - works primarily with large established publishers",
-      role: "UI Developer",
-      highlights: [
-        "Designed and developed user interface",
-        "Created image assets and graphics editing",
-        "Developed UI pages using C#.NET and HTML",
-        "Worked with 6-member team",
-        "Managed publication and catalog designs"
-      ],
-      technologies: ["C#.NET 2005", "Flash", "Photoshop", "HTML", "JavaScript"],
-      url: "https://tntls2centrum.rrd.com/LSCentrum/default.aspx"
-    },
-    {
-      id: 10,
-      category: "Professional",
-      name: "eCAS (Custom Automation System)",
-      company: "Bahrain International Airport",
-      duration: "February 2007 – April 2009",
-      description: "Custom Automation System for Bahrain International Airport handling customs operations and automation",
-      role: "UI Developer",
-      highlights: [
-        "Designed and developed user interface for customs system",
-        "Created image assets and UI components",
-        "Developed UI pages using C#.NET and HTML",
-        "Worked with 8-member team",
-        "Enhanced customs automation workflows"
-      ],
-      technologies: ["C#.NET 2005", "Flash", "Photoshop", "HTML", "JavaScript"],
-      url: "http://www.bahraincustoms.gov.bh/customs/en/"
+      name: "Divine Poojari",
+      company: "Professional Project",
+      duration: "Recent Project",
+      description: "Spiritual services platform with user-centered design",
+      role: "UI/UX Designer & Developer",
+      technologies: ["UI/UX Design", "Responsive Design", "Web Development", "Interface Design"],
+      url: "https://divinepoojari.com/"
     }
   ],
 
   education: [
     {
-      degree: "B.Comm Computers",
-      year: "2007"
+      degree: "Bsc Computers",
+      year: "2005"
     }
   ],
 
-  languages: ["English", "Hindi", "Telugu"]
+  languages: ["English", "Hindi", "Telugu"],
+
+  domainExperience: [
+    "IoT monitoring platforms",
+    "Operational dashboards",
+    "Transport and device monitoring systems",
+    "AI-assisted monitoring and analytics tools"
+  ],
+
+  designApproach: "My design approach focuses on creating practical and intuitive experiences that help users understand complex systems easily. When designing AI-powered features, I prioritize clarity, transparency, and usability so that users can confidently interact with intelligent systems."
 };

@@ -91,7 +91,7 @@ export const Contact = () => {
           variants={itemVariants}
           className="text-gray-500 text-sm mt-12"
         >
-          © 2026 P Jeevan Prabhath. All rights reserved.
+          © 2026 {resumeData.name}. All rights reserved.
         </motion.p>
       </motion.div>
     </section>

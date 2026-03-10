@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
+import { resumeData } from '../data/resumeData';
 
 export const Hero = () => {
   const containerVariants = {
@@ -34,26 +35,26 @@ export const Hero = () => {
           <div className="w-48 h-48 mx-auto mb-6 rounded-full bg-gradient-to-br from-blue-400 to-purple-600 p-1">
             {/* <img 
               src="/jeevan-resume/jeevan-img.jpeg" 
-              alt="P Jeevan Prabhath" 
+              alt={resumeData.name} 
               className="w-full h-full rounded-full object-cover"
             /> */}
           </div>
         </motion.div>
 
         <motion.h1 variants={itemVariants} className="text-5xl md:text-7xl font-bold mb-4">
-          <span className="gradient-text">P Jeevan Prabhath</span>
+          <span className="gradient-text">{resumeData.name}</span>
         </motion.h1>
 
         <motion.p variants={itemVariants} className="text-2xl md:text-3xl text-blue-400 mb-6 font-light">
-          Technical Lead – Frontend Developer (React)
+          {resumeData.headline}
         </motion.p>
 
         <motion.p variants={itemVariants} className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
-          15+ years of experience building high-performance, responsive web applications using modern technologies. Currently working as Technical Lead UI at Orbcomm.
+          {resumeData.summary}
         </motion.p>
 
         <motion.div variants={itemVariants} className="flex gap-4 justify-center flex-wrap mb-12">
-          <a href="mailto:prabhath.jeevan@gmail.com" className="px-8 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg font-semibold transition-colors">
+          <a href={`mailto:${resumeData.email}`} className="px-8 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg font-semibold transition-colors">
             Get In Touch
           </a>
           <a href="#projects" className="px-8 py-3 border-2 border-blue-600 text-blue-400 hover:bg-blue-600 hover:text-white rounded-lg font-semibold transition-colors">
